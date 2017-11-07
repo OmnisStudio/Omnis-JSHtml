@@ -1,0 +1,4 @@
+On evTabSelected
+	If pTabNumber=2
+		Do $cinst.$objs.HtmlObj.$html.$assign(iHtml) Returns #F
+	End If
